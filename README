@@ -1,0 +1,4 @@
+2015-07-17:
+The R script is used to analysis the activity of a mailing list. The activity of the mailing list is mearsured by its monthly archieve size. 
+
+Currently the R script is just for fedora translating mailing list. Functions are planned to write in future to make the code can be used for other mailing list.
