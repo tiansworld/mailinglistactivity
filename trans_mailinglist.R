@@ -38,5 +38,5 @@ trans <- data.frame(year=archieveyear,month=archievemonth,size=trans$size)
 
 ## Plot
 fig <- ggplot(trans) + aes(x=month,y=size,group=year,color=year) +
-        facet_wrap(~ year) + geom_point()
+        facet_wrap(~ year) + geom_line(aes(size=size))
 ggsave("trans_archieve.png",fig)
