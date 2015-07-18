@@ -43,4 +43,4 @@ fig <- ggplot(trans) + aes(x=month,y=size,group=year,color=year) +
 ggsave("trans_archieve.png",fig)
 fig <- fig + facet_wrap(~ year)
 ggsave("wrap.png",fig)
-dev.off()
+
