@@ -1,3 +1,6 @@
+2015-07-22:
+Add dev branch, writing R functions instead of R script.
+
 2015-07-17:
 The R script is used to analysis the activity of a mailing list. The activity of the mailing list is mearsured by its monthly archive size. 
 
